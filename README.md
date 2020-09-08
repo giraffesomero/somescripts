@@ -1,1 +1,3 @@
 # somescripts
+
+vim settings, etc
