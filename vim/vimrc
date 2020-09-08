@@ -1,0 +1,30 @@
+""""""""""""""""""""""""""""""""""""""
+"my settings""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""
+
+noremap J 5j
+noremap K 5k
+noremap H 5h
+noremap L 5l
+inoremap ( ()<Esc>i
+inoremap [ []<Esc>i
+inoremap { {<CR>}<Esc>O
+inoremap " ""<Esc>i
+
+syntax on
+set nu
+set relativenumber
+set cursorline
+set scrolloff=5
+
+set wildmenu
+set laststatus=2
+set showcmd
+set ignorecase
+
+filetype plugin indent on
+set autoindent
+
+"set guifont=
+
+"""""""""""""""""""""
