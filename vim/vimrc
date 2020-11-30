@@ -7,15 +7,20 @@ noremap K 5k
 noremap H 5h
 noremap L 5l
 inoremap ( ()<Esc>i
+inoremap () ()
 inoremap [ []<Esc>i
+inoremap [ []
 inoremap { {<CR>}<Esc>O
+inoremap {} {}
 inoremap " ""<Esc>i
+inoremap "" ""
 
 syntax on
 set nu
 set relativenumber
 set cursorline
 set scrolloff=5
+set ruler
 
 set wildmenu
 set laststatus=2
@@ -24,6 +29,9 @@ set ignorecase
 
 filetype plugin indent on
 set autoindent
+
+set expandtab
+set softtabstop=4
 
 "set guifont=
 
