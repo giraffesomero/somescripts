@@ -1,0 +1,31 @@
+### my aliases ###
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+alias als='alias'
+alias bs='bash'
+alias clr='clear'
+alias hg='history | grep'
+alias hi='history 15'
+alias vimr='vim -R'
+alias ws='whatis'
+
+# apt
+alias aps='apt-cache search'
+alias apsh='apt-cache show'
+
+# pacman
+alias pss='pacman -Ss'
+alias psi='pacman -Si'
+
+# git
+alias gits='git status'
+alias gitc='git commit'
+alias gitcm='git commit -m'
+
+# other softwares 
+alias cow='cowsay'
+alias ra='ranger'
+alias tl='tldr'
