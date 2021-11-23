@@ -9,7 +9,7 @@ noremap L 5l
 inoremap ( ()<Esc>i
 inoremap () ()
 inoremap [ []<Esc>i
-inoremap [ []
+inoremap [] []
 inoremap { {<CR>}<Esc>O
 inoremap {} {}
 inoremap " ""<Esc>i
